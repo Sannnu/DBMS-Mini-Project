@@ -1,0 +1,23 @@
+create database managementsys;
+use managementsys;
+CREATE TABLE Lib (
+    `Member` VARCHAR(40) NOT NULL,
+    `PRN_No` VARCHAR(45) NOT NULL,
+    `ID` VARCHAR(45) NOT NULL,
+    `FirstName` VARCHAR(45) NULL,
+    `LastName` VARCHAR(45) NULL,
+    `Address1` VARCHAR(45) NULL,
+    `Address2` VARCHAR(45) NULL,
+    `PostID` VARCHAR(45) NULL,
+    `Mobile` VARCHAR(45) NULL,
+    `BookID` VARCHAR(45) NULL,
+    `BookTitle` VARCHAR(45) NULL,
+    `Author` VARCHAR(45) NULL,
+    `DateBorrowed` VARCHAR(45) NULL,
+    `DateDue` VARCHAR(45) NULL,
+    `DaysOnBook` VARCHAR(45) NULL,
+    `LateReturnFine` VARCHAR(45) NULL,
+    `DateOverDue` VARCHAR(45) NULL,
+    `FinalPrice` VARCHAR(45) NULL
+);
+select * from library;
